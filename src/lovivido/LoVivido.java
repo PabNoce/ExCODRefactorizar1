@@ -37,7 +37,13 @@ public class LoVivido {
         System.exit(0);
 
     }
-    
+    /**
+     * Esta funcion contiene las instrucciones de salida de datos.
+     * @param m Nuero de meses.
+     * @param d Numero de dias.
+     * @param h Numero de horas.
+     * @param n Nombre.
+     */
     public static void salida(int m, int d, int h, String n){
         JOptionPane.showMessageDialog(null, "Meses: " + m, "Numero de meses vividos de " + n, JOptionPane.INFORMATION_MESSAGE);
         JOptionPane.showMessageDialog(null, "Días: " + d, "Numero de días vividos de " + n, JOptionPane.INFORMATION_MESSAGE);
